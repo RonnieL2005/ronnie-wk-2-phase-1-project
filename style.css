@@ -1,0 +1,88 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(177, 177, 249);
+
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    
+    padding: 5px;
+    margin: auto;
+    max-width: 500px;
+    background-color: rgb(3, 3, 111);
+    color: white;
+    border-radius: 10px 10px 0 0;
+
+
+}
+
+p{
+    max-width: 500px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+
+}
+#animalList {
+    
+    padding: 10px;
+    list-style: none;
+    max-width: 450px;
+    margin: auto;
+    background-color: rgb(168, 168, 249);
+    padding-left: 30px;
+    margin-bottom: 10px;
+}
+
+
+li{
+    display: flex;
+    justify-content: space-between;
+}
+ 
+#form {
+    max-width: 450px;
+    margin:auto;
+    
+    background-color: rgb(168, 168, 249);
+    margin-bottom: 10px;
+}
+
+#submit{
+    max-width: 450px;
+    margin:auto;
+    border: 1px solid black; 
+ 
+}
+#reset{
+    margin :auto;
+    max-width: 450px;
+
+}
+button{
+    background-color: rgb(3, 3, 111);
+    border-style: none;
+    color: white;
+    padding: 2px 20px;
+    border-radius: 3px;
+    width: 150px
+}
+#animalDetails{
+    max-width: 450px;
+    margin: auto;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#votesButton{
+    border-radius: px;
+    width: 100px;
+    
+}
